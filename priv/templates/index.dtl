@@ -12,17 +12,16 @@
 		<meta name="keywords" content="" />
 		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css" />
 		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.dropotron.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-panels.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
-			<link rel="stylesheet" href="css/style-noscript.css" />
-		</noscript>
+		<script src="/static/js/jquery.min.js"></script>
+		<script src="/static/js/jquery.dropotron.min.js"></script>
+		<script src="/static/js/skel.min.js"></script>
+		<script src="/static/js/skel-panels.min.js"></script>
+		<script src="/static/js/init.js"></script>
+    <script>{{script}} </script>
+			<link rel="stylesheet" href="/static/css/skel-noscript.css" type="text/css" />
+			<link rel="stylesheet" href="/static/css/style.css" type="text/css" />
+			<link rel="stylesheet" href="/static/css/style-desktop.css" type="text/css" />
+			<link rel="stylesheet" href="/static/css/style-noscript.css" type="text/css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
@@ -70,7 +69,7 @@
 				<div class="reel">
 
 					<article>
-						<a href="http://mdomaradzki.deviantart.com/art/Bueller-III-351975087" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+						<a href="http://mdomaradzki.deviantart.com/art/Bueller-III-351975087" class="image featured"><img src="/static/images/pic01.jpg" alt="" /></a>
 						<header>
 							<h3><a href="#">Your new desk.</a></h3>
 						</header>
@@ -81,7 +80,7 @@
 					</article>
 				
 					<article>
-						<a href="http://mdomaradzki.deviantart.com/art/Disco-351602759" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+						<a href="http://mdomaradzki.deviantart.com/art/Disco-351602759" class="image featured"><img src="/static/images/pic02.jpg" alt="" /></a>
 						<header>
               <h3><a href="#">Personalized experience</a></h3>
 						</header>
@@ -98,7 +97,7 @@
 			<div class="wrapper style2">
 
 				<article id="main" class="container special">
-					<a href="http://mdomaradzki.deviantart.com/art/Planet-Bronte-339258500" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+					<a href="http://mdomaradzki.deviantart.com/art/Planet-Bronte-339258500" class="image featured"><img src="/static/images/pic06.jpg" alt="" /></a>
 					<header>
 						<h2><a href="#">The big picture.</a></h2>
 						<span class="byline">
